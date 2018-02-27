@@ -1,0 +1,20 @@
+<div id="mainWrapper">
+  <div id="languageWrapper">
+    <span class="flagWrapper" (click)="onClickLanguaje(langType.Spanish)"><img src="assets/logos/sp-flag.png" alt="spanish"></span>
+    <span class="flagWrapper" (click)="onClickLanguaje(langType.English)"><img src="assets/logos/uk-flag.png" alt="english"></span>
+    <span class="text">{{contentService.isEnglish() ? 'Language' : 'Idioma'}}</span>
+  </div>
+  <div id="logos">
+    <div class="linkWrapper">
+      <a href="{{contentService.getContent().cv}}">
+        <img src="assets/logos/linkedin.png" alt="">
+      </a>
+    </div>
+    <div class="linkWrapper">
+      <a href="https://github.com/ignacioPastor">
+        <img src="assets/logos/github.svg" alt="">
+      </a>
+    </div>
+  </div>
+  
+</div>
