@@ -1,13 +1,12 @@
 
 #mainWrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(46, 45, 45);
     height: 50px;
 
     #languageWrapper {
-        margin-right: auto;
         margin-left: 20px;
         display: flex;
         align-items: center;
@@ -18,13 +17,17 @@
         }
     
         .flagWrapper {
-            margin-left: 3px;
             display: flex;
             align-items: center;
             cursor: pointer;
             width: 20px;
             img {
                 width: 100%;
+            }
+
+            &:nth-child(2) {
+
+                margin-left: 7px;
             }
         }
     }

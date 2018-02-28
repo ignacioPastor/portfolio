@@ -1,4 +1,13 @@
 {
     "projects": "Hello projects in english",
-    "cv": "https://www.linkedin.com/in/ignacio-pastor-padilla-70a66514a/?locale=en_US"
+    "linkedin": "https://www.linkedin.com/in/ignacio-pastor-padilla-70a66514a/?locale=en_US",
+    "cv": "https://drive.google.com/open?id=0B8rbd3FTefMoRkZLUG55ck9vd00",
+    "about": {
+        "title": "About me",
+        "content1": "I'm Ignacio Pastor, fullstack javascript developer. I'm currently working and living in Galway (Ireland) for the company ",
+        "content2": "Check here my CV"
+    }
+
+
+
 }

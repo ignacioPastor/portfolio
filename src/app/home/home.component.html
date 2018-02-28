@@ -1,5 +1,17 @@
 
 <navbar></navbar>
-<p>
-  {{contentService?.getContent()?.projects}}
-</p>
+<div id="mainWrapper">
+    <div id="about">
+      <div id="titleAbout">{{contentService.getContent()?.about.title}}</div>
+      <div class="contentAbout">
+        <span>
+          {{contentService.getContent()?.about.content1}}
+          <a class="customLink" href="https://boonagency.ie/" [style.margin-left]="'4px'">BoonAgency</a>
+        </span>
+      </div>
+      <div class="contentAbout">
+        <a class="customLink" href="{{contentService.getContent()?.cv}}">{{contentService.getContent()?.about.content2}}</a>
+      </div>
+    </div>
+      
+</div>
