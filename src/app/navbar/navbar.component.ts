@@ -12,13 +12,13 @@ import { MyStrings } from './../shared/enumerators/MyStrings';
 export class NavbarComponent implements OnInit {
 
   langType = LangType;
-  constructor(private contentService: ContentService) {
+  constructor(public contentService: ContentService) {
   }
 
   ngOnInit() {
   }
 
-  onClickLanguaje(lang: number) {
+  onClickLanguaje(lang: string) {
     localStorage.setItem(MyStrings.LangKey, lang.toString());
     this.contentService.languageChoosen = lang;
   }
