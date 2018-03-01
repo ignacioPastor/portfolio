@@ -10,7 +10,7 @@ export class ContentService {
   constructor() { }
 
   public getContent() {
-    if (!this.languageChoosen) this.languageChoosen = localStorage.getItem(MyStrings.LangKey);
+    if (!this.languageChoosen) this.languageChoosen = localStorage.getItem(MyStrings.LanguageKey);
     if (!this.languageChoosen) this.languageChoosen = LangType.English;
     return this.chooseLanguage();
   }

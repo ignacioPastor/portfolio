@@ -19,7 +19,7 @@ export class NavbarComponent implements OnInit {
   }
 
   onClickLanguaje(lang: string) {
-    localStorage.setItem(MyStrings.LangKey, lang.toString());
+    localStorage.setItem(MyStrings.LanguageKey, lang.toString());
     this.contentService.languageChoosen = lang;
   }
 

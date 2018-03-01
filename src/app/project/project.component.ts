@@ -1,3 +1,4 @@
+import { TypeProject } from './../shared/enumerators/TypeProject';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
@@ -8,9 +9,15 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProjectComponent implements OnInit {
 
   @Input() project;
+  typeProject = TypeProject;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  getWidthImage() {
+    if (TypeProject.Web == this.project.type ) return '100%';
   }
 
 }

@@ -7,12 +7,12 @@
     height: 50px;
 
     #languageWrapper {
-        margin-left: 20px;
+        margin-left: 5%;
         display: flex;
         align-items: center;
         .text {
             color: white;
-            font-size: 12px;
+            font-size: 14px;
             margin-left: 8px;
         }
     
@@ -21,21 +21,19 @@
             align-items: center;
             cursor: pointer;
             width: 20px;
+            
             img {
                 width: 100%;
             }
 
             &:nth-child(2) {
-
                 margin-left: 7px;
             }
         }
     }
 
-
-
     #logos {
-        margin-right: 10px;
+        margin-right: 5%;
         display: flex;
         align-items: center;        
         .linkWrapper {

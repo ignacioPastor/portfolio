@@ -8,6 +8,7 @@
     },
     "projects": [
         {
+            "title": "Green Heartlands",
             "images": [
                 "heartland_stageInfo.png",
                 "heartland_stageAction.png",
@@ -17,46 +18,50 @@
                 "heartland_listingMonuments.png",
                 "heartland_listingShop.png"
             ],
-            "title": "Green Heartlands",
+            "type": "app",
             "subtitle": "Cycling App, display maps, indications, and resources of the cycling routes of Roscommon",
             "content": "Heartland Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
         },
         {
-            "images": [
-                "scanner_login.png",
-                "scanner_home.png",
-                "scanner_listingEvents.png",
-                "scanner_atendees.png"
-            ],
             "title": "Uniphi Scanner and Manager",
-            "subtitle": "One app to rule them all",
+            "images": [
+                "scanner_home.png",
+                "scanner_atendees.png",
+                "scanner_listingEvents.png",
+                "scanner_login.png"
+            ],
+            "type": "app",
+            "subtitle": "One app to rule them all. (Ticketing) Scan QR Codes, redeem with swipe in atendees list, and keep update with real time data and statistics.",
             "content": "Scanner Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
         },
         {
+            "title": "Castlerea",
             "images": [
                 "castlerea_home.png",
                 "castlerea_listingAttraction.png",
                 "castlerea_listingAcommodation.png"
             ],
-            "title": "Castlerea",
+            "type": "app",
             "subtitle": "Town App, manage the cultural and natural resources of Castlerea to improve the tourism in the town.",
             "content": "Castlerea Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
         },
         {
+            "title": "Fermoy",
             "images": [
                 "fermoy_detailAttraction.png",
                 "fermoy_detailNew.png"
             ],
-            "title": "Fermoy",
+            "type": "app",
             "subtitle": "Town App, manage the cultural and natural resources of Fermoy to improve the tourism in the town.",
             "content": "Fermoy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
         },
         {
+            "title": "CRM",
             "images": [
                 "crm.dashboard.png",
                 "crm_accountSection.png"
             ],
-            "title": "CRM",
+            "type": "web",
             "subtitle": "Environmet where manage all data and customers of the company",
             "content": "CRM Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
         }

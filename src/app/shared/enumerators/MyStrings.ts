@@ -1,3 +1,3 @@
 export enum MyStrings {
-    LangKey = 'port-lang'
+    LanguageKey = 'port-lang'
 }

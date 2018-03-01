@@ -1,10 +1,69 @@
 {
-    "projects": "Hola proyectos en español!",
     "linkedin": "https://www.linkedin.com/in/ignacio-pastor-padilla-70a66514a/?locale=es_ES",
-    "cv": "https://drive.google.com/open?id=1tAwYD27Yg0R8F2F8bbHpzNLWITEWdaeo",
+    "cv": "https://drive.google.com/open?id=1e8mnc2u9YPkI0TSsYgVZz9BykAw4F1tP",
     "about": {
         "title": "Sobre mí",
         "content1": "Soy Ignacio Pastor, desarrollador de javascript fullstack. Actualmente resido y trabajo en Galway (Irlanda) para la empresa ",
         "content2": "Consulta my CV"
-    }
+    },
+    "projects": [
+        {
+            "title": "Green Heartlands",
+            "images": [
+                "heartland_stageInfo.png",
+                "heartland_stageAction.png",
+                "heartland_stageOverview.png",
+                "heartland_stageActionMap.png",
+                "heartland_detailMonument.png",
+                "heartland_listingMonuments.png",
+                "heartland_listingShop.png"
+            ],
+            "type": "app",
+            "subtitle": "Cycling App, contiene mapas, indicaciones y diferentes útiles recursos de las ciclo-rutas de Roscommon.",
+            "content": "Heartland Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        },
+        {
+            "title": "Uniphi Scanner and Manager",
+            "images": [
+                "scanner_home.png",
+                "scanner_atendees.png",
+                "scanner_listingEvents.png",
+                "scanner_login.png"
+            ],
+            "type": "app",
+            "subtitle": "Una app para gobernarlos a todos. (Ticketing) Scanea códigos QR, acepta o rechaza tickets con un simple swipe, y muestra estadísticas a tiempo real.",
+            "content": "Scanner Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        },
+        {
+            "title": "Castlerea",
+            "images": [
+                "castlerea_home.png",
+                "castlerea_listingAttraction.png",
+                "castlerea_listingAcommodation.png"
+            ],
+            "type": "app",
+            "subtitle": "Town App, muestra y facilita el acceso a los recursos turísticos de Castlerea para mejorar el turismo en la ciudad.",
+            "content": "Castlerea Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        },
+        {
+            "title": "Fermoy",
+            "images": [
+                "fermoy_detailAttraction.png",
+                "fermoy_detailNew.png"
+            ],
+            "type": "app",
+            "subtitle": "Town App, muestra y facilita el acceso a los recursos turísticos de Fermoy para mejorar el turismo en la ciudad.",
+            "content": "Fermoy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        },
+        {
+            "title": "CRM",
+            "images": [
+                "crm.dashboard.png",
+                "crm_accountSection.png"
+            ],
+            "type": "web",
+            "subtitle": "Entorno de gestion y almacenamiento de datos relativos a los proyectos y clientes de la empresa.",
+            "content": "CRM Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        }
+    ]
 }

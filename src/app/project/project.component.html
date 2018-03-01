@@ -1,9 +1,10 @@
 
-<!-- <div class="mainImageProject" [ngStyle]="{ 'background-image': 'url(assets/images/' + project.images[0] + ')'}"></div> -->
-<div class="mainImageProject">
-  <!-- <img  src="{{'assets/images/' + project.images[0]}}" alt=""> -->
-<div class="mainImageProject" [ngStyle]="{ 'background-image': 'url(assets/images/' + project.images[0] + ')'}"></div>
+<div class="mainWrapperProject">
+  <div class="imageWrapper">
+    <div class="imageProject" [ngStyle]="{ 'width': getWidthImage(), 'background-image': 'url(assets/images/' + project.images[0] + ')'}"></div>
+    <div *ngIf="project.type == typeProject.App" class="imageProject" [ngStyle]="{ 'background-image': 'url(assets/images/' + project.images[1] + ')'}"></div>
+  </div>
   
+  <div class="titleProject">{{project.title}}</div>
+  <div class="subtitleProject">{{project.subtitle}}</div>
 </div>
-<div>{{project.title}}</div>
-<div>{{project.subtitle}}</div>

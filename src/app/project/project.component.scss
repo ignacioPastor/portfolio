@@ -1,8 +1,38 @@
 
-
-.mainImageProject {
-    height: 300px;
+.mainWrapperProject {
     width: 100%;
-    background-position: center;
-    background-size: cover;
+    height: 100%;
+    transition: all 200ms ease;
+    box-shadow: 3px 5px 5px #ccc;
+    border-radius: 7px;
+    cursor: pointer;
+    
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 10px 10px #ccc;
+    }
+
+    .imageWrapper {
+        display: flex;
+        justify-content: space-between;
+        
+        .imageProject {
+            height: 300px;
+            width: 48%;
+            background-position: center;
+            background-size: cover;
+            transition: all 200ms ease;
+        } 
+    }
+    
+    .titleProject {
+        font-size: 23px;
+        color: black;
+        padding: 4% 5% 2% 5%;
+    }
+    
+    .subtitleProject {
+        font-size: 16px;
+        padding: 0 5% 3% 5%;
+    }
 }
