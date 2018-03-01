@@ -1,12 +1,66 @@
 {
-    "projects": "Hello projects in english",
     "linkedin": "https://www.linkedin.com/in/ignacio-pastor-padilla-70a66514a/?locale=en_US",
     "cv": "https://drive.google.com/open?id=0B8rbd3FTefMoRkZLUG55ck9vd00",
     "about": {
         "title": "About me",
         "content1": "I'm Ignacio Pastor, fullstack javascript developer. I'm currently working and living in Galway (Ireland) for the company ",
         "content2": "Check here my CV"
-    }
+    },
+    "projects": [
+        {
+            "images": [
+                "heartland_stageInfo.png",
+                "heartland_stageAction.png",
+                "heartland_stageOverview.png",
+                "heartland_stageActionMap.png",
+                "heartland_detailMonument.png",
+                "heartland_listingMonuments.png",
+                "heartland_listingShop.png"
+            ],
+            "title": "Green Heartlands",
+            "subtitle": "Cycling App, display maps, indications, and resources of the cycling routes of Roscommon",
+            "content": "Heartland Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        },
+        {
+            "images": [
+                "scanner_login.png",
+                "scanner_home.png",
+                "scanner_listingEvents.png",
+                "scanner_atendees.png"
+            ],
+            "title": "Uniphi Scanner and Manager",
+            "subtitle": "One app to rule them all",
+            "content": "Scanner Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        },
+        {
+            "images": [
+                "castlerea_home.png",
+                "castlerea_listingAttraction.png",
+                "castlerea_listingAcommodation.png"
+            ],
+            "title": "Castlerea",
+            "subtitle": "Town App, manage the cultural and natural resources of Castlerea to improve the tourism in the town.",
+            "content": "Castlerea Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        },
+        {
+            "images": [
+                "fermoy_detailAttraction.png",
+                "fermoy_detailNew.png"
+            ],
+            "title": "Fermoy",
+            "subtitle": "Town App, manage the cultural and natural resources of Fermoy to improve the tourism in the town.",
+            "content": "Fermoy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        },
+        {
+            "images": [
+                "crm.dashboard.png",
+                "crm_accountSection.png"
+            ],
+            "title": "CRM",
+            "subtitle": "Environmet where manage all data and customers of the company",
+            "content": "CRM Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        }
+    ]
 
 
 
