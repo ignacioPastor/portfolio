@@ -1,0 +1,40 @@
+
+@import "./../../assets/styles/variables";
+$linkColor: rgb(219, 87, 11);
+$colorText: rgb(83, 81, 81);
+
+#mainWrapperAbout {
+    height: 100%;
+    width: 100%;
+
+    .contentAbout {
+        font-size: $fontSizeTitleSection;
+        margin: 3px 0;
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        color: $colorText;
+
+        span .customLink:hover {
+            line-height: 0;
+        }
+    }
+
+    .customLink {
+        text-decoration: none;
+        color: $linkColor;
+        font-size: $fontSizeTitleSection + 1px;
+        transition: all 200ms ease;
+        display: inline;
+
+        &:hover {
+            font-size: $fontSizeTitleSection + 4px;
+            color: lighten($linkColor, 10%);
+            transform: scale(1.1);
+        }
+
+        &:active {
+            color: darken($linkColor, 10%);
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<div id="projects">
+  <div class="titleSection">Projects</div>
+  <div id="projectsWrapper">
+    <div class="projectWrapper" *ngFor="let project of contentService.getContent().projects">
+      
+      <project [project]="project"></project>
+    </div>
+  </div>
+</div>
