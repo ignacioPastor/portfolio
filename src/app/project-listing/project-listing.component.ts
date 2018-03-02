@@ -1,3 +1,4 @@
+import { ContentService } from './../shared/services/content.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectListingComponent implements OnInit {
 
-  constructor() { }
+  constructor(public contentService: ContentService) { }
 
   ngOnInit() {
   }

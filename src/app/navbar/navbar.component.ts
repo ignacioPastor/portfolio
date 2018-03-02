@@ -1,5 +1,5 @@
 import { ContentService } from './../shared/services/content.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { LangType } from './../shared/enumerators/LangType';
 import { MyStrings } from './../shared/enumerators/MyStrings';
 
@@ -12,6 +12,7 @@ import { MyStrings } from './../shared/enumerators/MyStrings';
 export class NavbarComponent implements OnInit {
 
   langType = LangType;
+  @Output() changeLanguage: EventEmitter<string> = new EventEmitter<string>();
   constructor(public contentService: ContentService) {
   }
 
@@ -21,6 +22,7 @@ export class NavbarComponent implements OnInit {
   onClickLanguaje(lang: string) {
     localStorage.setItem(MyStrings.LanguageKey, lang.toString());
     this.contentService.languageChoosen = lang;
+    this.changeLanguage.emit(lang);
   }
 
 }

@@ -9,6 +9,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectListingComponent } from './project-listing/project-listing.component';
+import { SkillsComponent } from './skills/skills.component';
+import { SkillComponent } from './skill/skill.component';
 
 
 
@@ -23,7 +25,9 @@ const appRoutes: Routes = [
     NavbarComponent,
     ProjectComponent,
     AboutComponent,
-    ProjectListingComponent
+    ProjectListingComponent,
+    SkillsComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,

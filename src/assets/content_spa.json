@@ -6,6 +6,48 @@
         "content1": "Soy Ignacio Pastor, desarrollador de javascript fullstack. Actualmente resido y trabajo en Galway (Irlanda) para la empresa ",
         "content2": "Consulta my CV"
     },
+    "skills": [
+        {
+            "logo": "assets/logos/angular.svg",
+            "content": "Trabajando siempre con la última versión de Angular, he desarrollado varias webs, además de utilizado Angular para desarrollar aplicaciones móviles híbridas. Respecto a las webs, varias de ellas son pequeños proyectos para permitir al project manager y al cliente manejar el contenido de de las distintas aplicaciones, así como la gestión de ticketing y eventos. Un proyecto donde profundizé más en Angular fue un CRM interno, una aplicación web que permite la gestión de datos y clientes de la empresa, así como logs, mensajes y diversas herramientas. Siendo la seguridad un elemento clave de este proyecto."
+        },
+        {
+            "logo": "assets/logos/ionic.png",
+            "content": "Ionic es un framework para construir aplicaciones móviles híbridas (para iOS y Android), que utiliza Angular y Cordova. He desarrollado unos 5 proyectos con Ionic, los cuales están (o estarán una vez que llegue la fecha oficial de lanzamiento) en la Play / Apple store (desarrollador boonagency). Estoy familiarizado con los detalles, errores y puntos fuertes de este framework. Como logro alcanzado, desarrollé una estructura no convencional dentro de las aplicaciones del proyecto Town Apps, que permite a la empresa generar y mantener aplicaciones con un mínimo esfuerzo."
+        },
+        {
+            "logo": "assets/logos/express.png",
+            "content": "He participado o desarrollado unos 4-5 proyectos en con express. Como fullstack, he desarrollado el lado del servidor para los proyectos en los que estaba trabajando. He implementado diferentes APIs, trabajado con procesos asíncronos, así como seguridad (verificación por token y passport por ejemplo) y manejo de errores."
+        },
+        {
+            "logo": "assets/logos/node.png",
+            "content": "He estudiado los fundamentos de node durante mi formación académica. No obstante, todo mi uso profesional de Node ha sido a través de Express. No obstante, procuro leer todo todo lo que puedo sobre seguridad y rendimiento en Node."
+        },
+        {
+            "logo": "assets/logos/docker.png",
+            "content": "He utilizado docker en la mayoría de mis aplicaciones, desde que lo descubrimos es un elemento clave en nuestros servidores. He trabajado con DockerHub para almacenar y gestionar las imágenes, así como con Portainer, el cual permite configurar y gestionar los servidores de forma mucho más fácil y eficiente. Estoy familiarizado con las imágenes, contenedores, redes, volúmenes así como con docker-compose, el cual utilizo a diario en mi ordenador para trabajar con una réplica local del servidor."
+        },
+        {
+            "logo": "assets/logos/javascript.png",
+            "content": "Estudié los fundamentos de Javascript durante mi formación académica y he desarrollado algunas pequeñas webs con javascript plano. He estudiado y trabajado con ECMAScript6 y me gusta leer todo aquello relacionado con javascript. No obstante mi principal relación profesional con Javascript ha sido mediante Frameworks."
+        },
+        {
+            "logo": "assets/logos/typescript.png",
+            "content": "Con un background de C# y Java durante mis estudios, encuentro en Typescript justo aquello que más hecho en falta a javascript. Utilizo Typescript en la mayoría de mis proyectos, incluso he utilizado Typescript con Express. Encuento que el tipado es muy útil para los desarrolladores, evitando malas prácticas y ayudando a resolver (y generar menos) bugs"
+        },
+        {
+            "logo": "assets/logos/postgre.png",
+            "content": "Tras varios meses utilizando MySQL en la empresa en la que trabajo, migramos a PostgreSQL. Desde entonces es la principal herramienta para gestión de bases de datos que he utilizado. Además, es también el sistema de gestión de bases de datos que más utilicé durante mis estudios, principalmente con C#"
+        },
+        {
+            "logo": "assets/logos/react.png",
+            "content": "React como desideratum. He trabajado principalmente con Angular, y no tengo todavía mucha experiencia profesional con React. No obstante, estoy aprendiendo React en mi tiempo libre en tanto que considero que es un gran tecnología. Junto con el lead developer, decidimos empezar a migrar a React en la empresa, no porque queramos descartar Angular, sino con la intención de ofrecer distintas soluciones a distintos problemas, así como migrar en el futuro a React-Native. Así que todavía no soy un experto en React, pero estamos empezando a implementarlo en pequeños proyectos y cada vez me gusta más!."
+        },
+        {
+            "logo": "assets/logos/sequelize.png",
+            "content": "ORM que he estado utilizando durante más de un año. Encuentro que es una herramienta muy útil para manejar las estructuras de la base de datos, así como la interacción con las mismas. Cada proyecto intento profundizar un poco más en Sequelize, su relaciones, modelos, métodos y querys."
+        }
+    ],
     "projects": [
         {
             "title": "Green Heartlands",

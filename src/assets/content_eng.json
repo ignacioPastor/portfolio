@@ -6,6 +6,48 @@
         "content1": "I'm Ignacio Pastor, fullstack javascript developer. I'm currently working and living in Galway (Ireland) for the company ",
         "content2": "Check here my CV"
     },
+    "skills": [
+        {
+            "logo": "assets/logos/angular.svg",
+            "content": "Working always with the latest version of Angular, I have developed some websites with angular. Some of them just simple content managers to allow the customer and our company easily manage all the content. The biggest website was a CRM, plenty of data management and security protocols. Anyway, I have developed many Ionic apps, technology who uses Angular, so I feel quite confident working with Angular."
+        },
+        {
+            "logo": "assets/logos/ionic.png",
+            "content": "Ionic is a framework to build hybrid mobile apps (Android and Ios) using the strength of Angular and Cordova. I have built around 5 apps with Ionic, the most of them are available, or will be soon, in the Play / Apple store (developer boonagency). I'm used to the details, issues and benefits of this framework. As achievement, I developed some of the projects with a customized non-standard architecture to make the company able to manage, create and maintain apps inside of Town Apps project with the minimum effort."
+        },
+        {
+            "logo": "assets/logos/express.png",
+            "content": "I have developed or participated in 4-5 backend projects. As fullstack, I have developed the server side of the projects where I was working. I have developed different APIs and managed asynchronous process, I'm experienced with middlewares, security (ie. token verification and passport) and error handling."
+        },
+        {
+            "logo": "assets/logos/node.png",
+            "content": "I have studied the basis of node during my studies, but my main experience with node is using the framework Express. Just to improve and learn, I have read about security, performance of node."
+        },
+        {
+            "logo": "assets/logos/docker.png",
+            "content": "I have worked with docker in the most of my applications, once we discovered it! We use DockerHub to store and manage the images and configured a Portainer to manage many different servers. I have set up containers, networks, volumes... working with docker-compose to emulate the server environment in your own machine."
+        },
+        {
+            "logo": "assets/logos/javascript.png",
+            "content": "I learnt the basis during my studies, and continued working with it, mainly with ECMAScript6. Although, my main experience with javascript is using frameworks as Angular, Ionic and server-side (Node.js)."
+        },
+        {
+            "logo": "assets/logos/typescript.png",
+            "content": "With studies in C# and Java, I find in Typescript the those types that I was messing in javascript. I use Typescript in the most of my projects even I work with typescript in Express. I find Types really useful for developers, avoiding bad practices and helping to resolve bugs."
+        },
+        {
+            "logo": "assets/logos/postgre.png",
+            "content": "After a couple of months working with MySQL, we migrated to PostgreSQL, I have been working with postgre for almost a year. Previously, this was the main tool for database management that I use to use with C# and Java during my studies."
+        },
+        {
+            "logo": "assets/logos/react.png",
+            "content": "React as desideratum. As Angular developer I have no experience with React, but I'm starting to learn React on my spare time as long as I consider that is a great technology. With the lead developer, we decided to start to work with react to be able to manage different projects with the most appropiate technology, and after react, migrate to React-Native to develop mobile apps. So I'm learning and enjoying React!, not a pro with this technology (yet!)."
+        },
+        {
+            "logo": "assets/logos/sequelize.png",
+            "content": "ORM that I have been using for a year, I find in this tool a powerfull way to manage database structure and interaction. Each project I try to dive deeper into sequelize, table relation, model methods and querys."
+        }
+    ],
     "projects": [
         {
             "title": "Green Heartlands",

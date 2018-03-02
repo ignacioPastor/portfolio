@@ -1,6 +1,7 @@
 
-<navbar></navbar>
+<navbar (changeLanguage)="skillsList.onChangeLanguage($event)"></navbar>
 <div id="mainWrapper">
     <about></about>
+    <skills #skillsList ></skills>
     <project-listing></project-listing>
 </div>

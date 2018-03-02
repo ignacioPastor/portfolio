@@ -1,0 +1,12 @@
+<div id="skillsWrapper">
+  <div class="titleSection">Skills</div>
+  <div id="contentWrapper">
+    <div id="skillListing" >
+      <skill [skill]="skill" *ngFor="let skill of contentService.getContent().skills" (showContent)="showContentSkill($event)"></skill>
+    </div>
+    <div id="contentSkill">
+      {{contentSkillToShow}}
+    </div>
+  </div>
+
+</div>
